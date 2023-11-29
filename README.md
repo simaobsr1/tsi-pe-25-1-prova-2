@@ -18,6 +18,13 @@ Para testar o seu programa com pytest: Altere o código no arquivo main com a su
 pytest
 ```
 
+Ao concluir, salve e envie com os comandos a seguir:
+```sh
+git add .
+git commit -m "resolução"
+git push
+```
+
 ## Questão 01
 
 A partir do dicionário de nomes e idades de cidades a seguir, crie uma função que retorne uma lista de cidades maiores que 100 anos.
