@@ -27,27 +27,32 @@ A partir do dicionário de nomes e idades de cidades a seguir, crie uma função
 Entrada:
 
 ```py
-idades_paraiba = {
-    "João Pessoa": 432,
-    "Campina Grande": 325,
-    "Santa Rita": 68,
-    "Patos": 289,
-    "Bayeux": 54,
-    "Sousa": 178,
-    "Cajazeiras": 201,
-    "Cabedelo": 45,
-    "Guarabira": 122,
-    "Areia": 177,
-}
+idades = {
+        "João Pessoa": 432,
+        "Campina Grande": 325,
+        "Santa Rita": 68,
+        "Patos": 289,
+        "Bayeux": 54,
+        "Sousa": 178,
+        "Cajazeiras": 201,
+        "Cabedelo": 45,
+        "Guarabira": 122,
+        "Areia": 177,
+    }
 ```
 
 Saída:
 
-resultado_esperado = ['Cabedelo', 'Santa Rita', 'Guarabira', 'Sousa', 'Areia', 'João Pessoa', 'Campina Grande', 'Patos', 'Cajazeiras']
+resultado_esperado = ['João Pessoa', 'Campina Grande', 'Patos', 'Sousa', 'Cajazeiras', 'Guarabira', 'Areia']
+
 
 ## Questão 02
 
-Crie um programa que leia duas listas (lista1 e lista2), retorne a soma do número maiores que 0 e uma lista dos elementos maiores que 0 em ordem crescente.
+Crie um programa que leia duas listas (lista1 e lista2), retorne uma tupla contendo: 
+
+- A soma de todos os números das duas listas maiores que 0,
+
+- Uma lista  em ordem crescente dos elementos da lista1 e lista2 maiores que 0.
 
 ### Exemplos
 
@@ -58,7 +63,7 @@ Entrada:
 
 Saída:
 
-- resultado_esperado - 37, [3, 6, 7, 9, 10, 12]
+- resultado_esperado - 47, [3, 6, 7, 9, 10, 12]
 
 Entrada:
 
@@ -96,19 +101,19 @@ Você deverá ler valores numéricos até o usuário digitar 0. Crie uma funçã
 
 ## Questão 04
 
-Joaquina é uma fotógrafa muito peculiar. Ela só aceita tirar fotos de pessoas se as pessoas estiverem em grupos de exatamente 04 pessoas. Tudo isso porque Joaquina tem uma mania esquisita de ordenação. Para ela, a pessoa mais baixa deve ficar sempre do lado direito, a segunda mais baixa do lado esquerdo, no meio, logo após a mais baixa, fica a terceira mais baixa e em seguida a mais alta.
+Joaquina é uma fotógrafa muito peculiar. Ela só aceita tirar fotos de pessoas se as pessoas estiverem em grupos de exatamente 03 pessoas. Tudo isso porque Joaquina tem uma mania esquisita de ordenação. Para ela, a pessoa mais baixa deve ficar sempre do lado direito, a segunda mais baixa do lado esquerdo, no meio, fica a terceira pessoa.
 
-Você deverá ler valores numéricos referente à altura em uma função ler_04_alturas() que deve retornar a lista de alturas. Em seguida, os valores deverão ser passados para uma função organizar_alturas(lista) que irá a lista de altuas conforme a organização de Joaquina. Ao final, crie uma função para formatar as alturas da lista de Joaquina, onde cada valor fique com duas casas decimais após a vírgula e retorne esta lista formatada.
+Você deverá ler valores numéricos referente à altura em uma função ler_03_alturas() que deve retornar a lista de alturas. Em seguida, os valores deverão ser passados para uma função organizar_alturas(lista) que irá organizar a lista de altuas conforme a proposta de Joaquina. Ao final, crie uma função para formatar as alturas da lista de Joaquina, onde cada valor fique com duas casas decimais após a vírgula e retorne esta lista formatada.
 
 ### Exemplos
 
 - Entrada
 
-  A entrada consiste de 04 números reais maiores que zero correspondendo às alturas de 04 pessoas. Cada número é dado em uma linha diferente. A entrada pode não estar ordenada.
-  [40, 30, 20, 10]
+  A entrada consiste de 03 números reais maiores que zero correspondendo às alturas de 03 pessoas. Cada número é dado em uma linha diferente. A entrada pode não estar ordenada.
+  [30, 20, 10]
 
 - Saída
 
-  Consiste de 04 números reais, separados por um final de linha, ordenados de acordo com a mania de Ambrosina. Os números devem ser formatados com 02 casas decimais.
+  Consiste de 03 números reais, separados por um final de linha. Os números devem ser formatados com 02 casas decimais.
 
-  [10.00, 30.00, 40.00, 20.00]
+  [20.00, 30.00, 10.00]
