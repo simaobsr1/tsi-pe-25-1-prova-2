@@ -1,4 +1,4 @@
-# Programação Estruturada: Prova 03
+# Programação Estruturada: Prova 02
 
 ## Instruções
 
