@@ -1,5 +1,5 @@
 def q1(cidades):
-    return []
+    return [] 
 
 def q2(lista1, lista2):
     return []
