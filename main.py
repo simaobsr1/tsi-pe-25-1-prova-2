@@ -5,19 +5,7 @@ def q1(cidades):
         if cidades[nome] > 100:
             resultado.append(nome)
     return resultado
-idades = {
-    "João Pessoa": 432,
-    "Campina Grande": 325,
-    "Santa Rita": 68,
-    "Patos": 289,
-    "Bayeux": 54,
-    "Sousa": 178,
-    "Cajazeiras": 201,
-    "Cabedelo": 45,
-    "Guarabira": 122,
-    "Areia": 177,
-}
-print(q1(idades))
+
 
 def q2(lista1, lista2):
 
@@ -29,9 +17,6 @@ def q2(lista1, lista2):
     numeros.sort()
     return (soma, numeros)
 
-lista1 = [3, -5, 12, 0, -8, 7]
-lista2 = [-2, 10, -1, 6, -4, 9]
-print(q2(lista1, lista2))
 
 def q3():
     
@@ -53,11 +38,6 @@ def processa_lista(lista):
             impares.append(num)
     return pares, impares
 
-valores = q3()
-pares, impares = processa_lista(valores)
-print("Lista de Pares:", pares)
-print("Lista de Ímpares:", impares)
-
 
 def q4ler_altura():
     alturas = []
@@ -76,10 +56,6 @@ def formatar_alturas(lista):
         lista_formatada.append("{:.2f}".format(altura))
     return lista_formatada
 
-alturas = q4ler_altura()
-organizadas = organizar_alturas(alturas)
-formatadas = formatar_alturas(organizadas)
-print(formatadas)
 
 def main():
     # Teste as questões que você desenvolveu manualmente:
